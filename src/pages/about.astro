@@ -1,11 +1,24 @@
-<body class="p-5 text-3xl leading-loose">
-    <h1>About Nima</h1>
-    <h2>The stack:</h2>
-    <ul>
-        <li>Netlify</li>
-        <li>AstroJS</li>
-        <li>Svelte</li>
-        <li>Tailwind</li>
-        <li>Bun</li>
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="About Nima"
+  ,
+  description="An intro about me and about the tech stack for the site!"
+>
+  <div class="p-5 px-10 py-10 pb-4 text-3xl leading-loose">
+    <h1 class="text-5xl text-emerald-300">About Nima</h1>
+    <h2 class="whitespace-pre-line pb-4 text-4xl text-emerald-200">
+      The stack:
+    </h2>
+
+    <ul class="px-5 text-2xl text-emerald-100">
+      <li>- Netlify</li>
+      <li>- AstroJS</li>
+      <li>- Svelte</li>
+      <li>- Tailwind</li>
+      <li>- Bun</li>
     </ul>
-</body>
+  </div>
+</Layout>
